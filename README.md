@@ -14,14 +14,14 @@ This should work on any Linux distribution that uses GRUB, but I have only teste
 ## Install
 
 ```bash
-git clone https://github.com/AllJavi/tartarus-grub.git
-cd tartarus-grub
-sudo cp tartarus -r /usr/share/grub/themes/
+git clone https://github.com/slipstream8125/LUGOS-grub.git
+cd LUGOS-grub
+sudo cp LUGOS-grub -r /usr/share/grub/themes/
 sudo vim /etc/default/grub
 ```
 
 Change `#GRUB_THEME=` to
-`GRUB_THEME="/usr/share/grub/themes/tartarus/theme.txt"`
+`GRUB_THEME="/usr/share/grub/themes/LUGOS-grub/theme.txt"`
 
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
@@ -30,7 +30,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 If all works correctly you should get this line in the out put:
 
 ```bash
-Found theme: /usr/share/grub/themes/tartarus/theme.txt
+Found theme: /usr/share/grub/themes/LUGOS-grub/theme.txt
 ```
 
 #### NOTE: For Fedora 37
@@ -42,6 +42,8 @@ When editing the file `/etc/default/grub`, you also have to comment the line `'G
 - [Cute Ghost profile](https://www.flaticon.com/free-icon/ghost_1150381?term=ghost&page=1&position=52&page=1&position=52&related_id=1150381&origin=style)
 - [Dracula Grub](https://draculatheme.com/grub)
 - [Tokyo Night Grub](https://github.com/mino29/tokyo-night-grub)
+- [Tartarus Grub]([GitHub - AllJavi/tartarus-grub: Basic grub theme with material gruvbox style](https://github.com/AllJavi/tartarus-grub))
+- 
 
 ## License
 
