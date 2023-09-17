@@ -12,11 +12,13 @@ terminal-top: "0"
 terminal-width: "100%"
 terminal-height: "100%"
 terminal-border: "0"
+desktop-image-h-align : "center"
+desktop-image-v-align: "center"
 
 # Logo image
 + image {
-	left = 50%-63
-	top = 50%-208
+	left = 40%-63
+	top = 25%-208
     file = "logo.png"
 }
 
