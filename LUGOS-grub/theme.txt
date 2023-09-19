@@ -17,8 +17,8 @@ desktop-image-v-align: "center"
 
 # Logo image
 + image {
-	left = 40%-63
-	top = 25%-208
+	left = 43%-50
+	top = 25%-50
     file = "logo.png"
 }
 

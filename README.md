@@ -5,7 +5,7 @@
 
 ## Preview
 
-![preview](/img/low-res.png)
+![preview](/img/low-res.jpeg)
 
 ## Compatibility
 
