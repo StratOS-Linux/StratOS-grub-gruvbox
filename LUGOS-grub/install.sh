@@ -18,7 +18,7 @@ set -e
 # GNU General Public License for more details at <http://www.gnu.org/licenses/>.
 
 # Set variables
-Theme_Name="gruvbox"			# The theme will be installed in a dir with this name. Avoid spaces.
+Theme_Name="LUGOS-grub"			# The theme will be installed in a dir with this name. Avoid spaces.
 Theme_Definition_File="theme.txt"	# Filename of theme definition file.
 Theme_Resolution="any"			# The resolution the theme was designed to show best at, 640x480, 1024x768 etc,
 					# or "any" for any resolution (resolution independent).
