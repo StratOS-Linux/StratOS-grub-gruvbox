@@ -39,10 +39,8 @@ When editing the file `/etc/default/grub`, you also have to comment the line `'G
 
 ## Credit
 
-- [Cute Ghost profile](https://www.flaticon.com/free-icon/ghost_1150381?term=ghost&page=1&position=52&page=1&position=52&related_id=1150381&origin=style)
-- [Dracula Grub](https://draculatheme.com/grub)
-- [Tokyo Night Grub](https://github.com/mino29/tokyo-night-grub)
 - [Tartarus Grub](https://github.com/AllJavi/tartarus-grub)
+- [grub2-gruvbox](https://git.fs.lmu.de/adnan/grub2-gruvbox) (for the install script)
 
 ## License
 
