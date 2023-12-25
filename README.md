@@ -16,7 +16,7 @@ This should work on any Linux distribution that uses GRUB, but I have only teste
 ```bash
 git clone https://github.com/lugvitc/LUGOS-grub.git
 sudo mkdir -p /usr/share/grub/themes # just in case the directory doesn't exist
-sudo cp LUGOS-grub -r /usr/share/grub/themes/
+sudo cp -r LUGOS-grub /usr/share/grub/themes/
 sudo vim /etc/default/grub
 ```
 
