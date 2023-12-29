@@ -14,9 +14,9 @@ This should work on any Linux distribution that uses GRUB, but I have only teste
 ## Install
 
 ```bash
-git clone https://github.com/slipstream8125/LUGOS-grub.git
-cd LUGOS-grub
-sudo cp LUGOS-grub -r /usr/share/grub/themes/
+git clone https://github.com/lugvitc/LUGOS-grub.git
+sudo mkdir -p /usr/share/grub/themes # just in case the directory doesn't exist
+sudo cp -r LUGOS-grub /usr/share/grub/themes/
 sudo vim /etc/default/grub
 ```
 
