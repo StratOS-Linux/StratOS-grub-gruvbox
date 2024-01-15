@@ -30,7 +30,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 If all works correctly you should get this line in the out put:
 
 ```bash
-Found theme: /usr/share/grub/themes/LUGOS-grub/theme.txt
+Found theme: /usr/share/grub/themes/StratOS-grub/theme.txt
 ```
 
 #### NOTE: For Fedora 37
