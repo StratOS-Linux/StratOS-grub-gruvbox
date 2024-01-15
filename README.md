@@ -1,6 +1,6 @@
 <div align="center">
     <img src="/img/README-decorator.png" width=300/><br/>
-    <h1> LUGOS Grub Theme</h1>
+    <h1> StratOS Grub Theme</h1>
 </div>
 
 ## Preview
