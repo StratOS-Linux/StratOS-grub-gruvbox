@@ -14,14 +14,14 @@ This should work on any Linux distribution that uses GRUB, but I have only teste
 ## Install
 
 ```bash
-git clone https://github.com/lugvitc/LUGOS-grub.git
+git clone https://github.com/lugvitc/StratOS-grub.git
 sudo mkdir -p /usr/share/grub/themes # just in case the directory doesn't exist
-sudo cp -r LUGOS-grub /usr/share/grub/themes/
+sudo cp -r StratOS-grub /usr/share/grub/themes/
 sudo vim /etc/default/grub
 ```
 
 Change `#GRUB_THEME=` to
-`GRUB_THEME="/usr/share/grub/themes/LUGOS-grub/theme.txt"`
+`GRUB_THEME="/usr/share/grub/themes/StratOS-grub/theme.txt"`
 
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
