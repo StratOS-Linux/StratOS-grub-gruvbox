@@ -21,7 +21,7 @@ sudo vim /etc/default/grub
 ```
 
 Change `#GRUB_THEME=` to
-`GRUB_THEME="/usr/share/grub/themes/StratOS-grub/tokyonight-dark/theme.txt"`
+`GRUB_THEME="/usr/share/grub/themes/StratOS-grub/theme.txt"`
 
 ```bash
 sudo grub-mkconfig -o /boot/grub/grub.cfg
@@ -30,7 +30,7 @@ sudo grub-mkconfig -o /boot/grub/grub.cfg
 If all works correctly you should get this line in the out put:
 
 ```bash
-Found theme: /usr/share/grub/themes/StratOS-grub/tokyonight-dark/theme.txt
+Found theme: /usr/share/grub/themes/StratOS-grub/theme.txt
 ```
 
 #### NOTE: For Fedora 37
