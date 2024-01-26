@@ -9,12 +9,12 @@
 
 ## Compatibility
 
-This should work on any Linux distribution that uses GRUB, but I have only tested it on EndeavourOS and Kali
+This should work on any Linux distribution that uses GRUB.
 
 ## Install
 
 ```bash
-git clone https://github.com/lugvitc/StratOS-grub.git
+git clone https://github.com/StratOS-Linux/StratOS-grub.git
 sudo mkdir -p /usr/share/grub/themes # just in case the directory doesn't exist
 sudo cp -r StratOS-grub /usr/share/grub/themes/
 sudo vim /etc/default/grub
