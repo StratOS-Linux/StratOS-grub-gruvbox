@@ -1,1 +1,48 @@
-tokyonight-dark/theme.txt
+# GRUB2 gfxmenu pop theme, based on Linux Vimix theme
+# Designed for any resolution
+
+# Global Property
+title-text: ""
+desktop-image: "background.png"
+desktop-image-scale-method: "stretch"
+desktop-color: "#1b1a26"
+terminal-font: "Unifont Regular 16"
+terminal-left: "0"
+terminal-top: "0"
+terminal-width: "100%"
+terminal-height: "100%"
+terminal-border: "0"
+desktop-image-h-align : "center"
+desktop-image-v-align: "center"
+
+# Logo image
++ image {
+	left = 43%-50
+	top = 25%-50
+    file = "logo.png"
+}
+
+# Show the boot menu
++ boot_menu {
+  left = 50%-240
+  top = 60%
+  width = 480
+  height = 30%
+  item_font = "Unifont Regular 16"
+  item_color = "#a3aed2"
+  selected_item_color = "#a3aed2"
+  item_height = 32
+  item_spacing = 24
+  selected_item_pixmap_style = "select_*.png"
+}
+
+# Show a countdown message using the label component
++ label {
+  top = 82%
+  left = 35%
+  width = 30%
+  align = "center"
+  id = "__timeout__"
+  text = "Booting in %d seconds"
+  color = "#a3aed2"
+}
