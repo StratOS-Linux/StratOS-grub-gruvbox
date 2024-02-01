@@ -1,11 +1,10 @@
 <div align="center">
-    <img src="/img/README-decorator.png" width=300/><br/>
+    <!-- Put new logo of StratOS here -->
     <h1> StratOS Grub Theme</h1>
 </div>
 
 ## Preview
 
-![preview](/img/low-res.jpeg)
 
 ## Compatibility
 
